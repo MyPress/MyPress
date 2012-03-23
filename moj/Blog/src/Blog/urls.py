@@ -7,6 +7,6 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
      (r'^news/', include("news.urls")),
-     (r'^zke /', include('django.contrib.admin.urls')),
+     (r'^zk /', include('django.contrib.admin.urls')),
 
 )
